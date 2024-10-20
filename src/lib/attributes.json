@@ -1,0 +1,39 @@
+[
+  {
+    "name": "comment",
+    "type": "string",
+    "required": true,
+    "isArray": false,
+    "defaultValue": ""
+  },
+  {
+    "name": "postId",
+    "type": "string",
+    "required": true,
+    "isArray": false,
+    "defaultValue": null
+  },
+  {
+    "name": " username",
+    "type": "string",
+    "required": true,
+    "isArray": false,
+    "defaultValue": ""
+  },
+  {
+    "name": " likes",
+    "type": "number",
+    "required": false,
+    "isArray": false,
+    "defaultValue": 0,
+    "minValue": 0
+  },
+  {
+    "name": " dislikes",
+    "type": "number",
+    "required": false,
+    "isArray": false,
+    "defaultValue": 0,
+    "minValue": 0
+  }
+]
