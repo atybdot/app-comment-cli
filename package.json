@@ -4,7 +4,7 @@
   "description": "initialize and get going with app-comment project with ease",
   "main": "index.js",
   "type": "module",
-  "keywords": [],
+  "keywords": ["appwrite","nodejs","app-comment","comments","blog","database","hackathon","hacktoberfest","hf24","app-comment-cli"],
   "author": "aybdot",
   "license": "MIT",
   "dependencies": {
