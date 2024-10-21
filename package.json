@@ -11,9 +11,6 @@
   "files": [
     "src"
   ],
-  "scripts": {
-    "build": "node esbuild.build.js"
-  },
   "homepage": "https://github.com/atybdot/app-comment-cli",
   "repository": {
     "type": "git",
