@@ -9,8 +9,8 @@ const spinner = ora();
 spinner.color = "yellow";
 
 const samplePaths = {
-  config: "./src/samples/app-comment.config",
-  gitignore: "./src/samples/gitignore",
+  config: "./src/samples/app-comment-config.sample",
+  gitignore: "./src/samples/gitignore.sample",
 };
 // prompt utils
 
@@ -220,7 +220,7 @@ async function writeConfig(filePath, envPrefix) {
 
   try {
     let data = fs.readFileSync(samplePaths.config, "utf8");
-    data = data.replaceAll("<prefix>", envPrefix);
+    data = data.replaceAll("<framework-prefix>", envPrefix);
     fs.writeFileSync(filePath, data, "utf8");
     spinner.succeed(chalk.green("config file created Successfully."));
   } catch (err) {

@@ -1,10 +1,25 @@
 {
-  "name": "app-comment-cli",
+  "name": "@atybdot/app-comment-cli",
   "version": "1.0.0",
   "description": "initialize and get going with app-comment project with ease",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "type": "module",
-  "keywords": ["appwrite","nodejs","app-comment","comments","blog","database","hackathon","hacktoberfest","hf24","app-comment-cli"],
+  "scripts": {
+    "build": "node esbuild.build.js"
+  },
+  "keywords": [
+    "appwrite",
+    "nodejs",
+    "app-comment",
+    "comments",
+    "blog",
+    "database",
+    "hackathon",
+    "hacktoberfest",
+    "hf24",
+    "app-comment-cli",
+    "atybdot"
+  ],
   "author": "aybdot",
   "license": "MIT",
   "dependencies": {
@@ -16,5 +31,8 @@
     "node-appwrite": "^14.1.0",
     "ora": "^8.1.0",
     "terminal-link": "^3.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.0"
   }
 }

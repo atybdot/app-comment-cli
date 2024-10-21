@@ -1,0 +1,9 @@
+const appCommentConfig = {
+    url : import.meta.env.<framework-prefix>APPCOMMENT_BASE_URL,
+    projectId : import.meta.env.<framework-prefix>APPCOMMENT_PROJECT_ID,
+    api : import.meta.env.<framework-prefix>APPCOMMENT_API,
+    databaseId : import.meta.env.<framework-prefix>APPCOMMENT_DATABASE_ID,
+    collectionId : import.meta.env.<framework-prefix>APPCOMMENT_COLLECTION_ID,
+};
+
+export default appCommentConfig

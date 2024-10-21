@@ -20,8 +20,8 @@
  */
 
 import { Command } from "commander";
-import { init } from "./src/command/init.js";
-import { returnJSON } from "./src/utils/utils.js";
+import { init } from "./command/init.js";
+import { returnJSON } from "./utils/utils.js";
 
 const program = new Command();
 const metadata = returnJSON("./package.json");

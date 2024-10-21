@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-import { Command } from "commander";
+import * as commander from "commander";
 import ora from "ora";
 import chalk from "chalk";
 import inquirer from "inquirer";
@@ -21,7 +21,7 @@ const paths = {
   attributes: "./src/lib/attributes.json",
 };
 
-export const init = new Command()
+export const init = new commander.Command()
   .name("init")
   .description("start appcomment")
   .action(async () => {
