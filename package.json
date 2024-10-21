@@ -5,9 +5,12 @@
   "publishConfig": {
     "access": "public"
   },
-  "exports": "./src/index.js",
-  "bin": "./src/index.js",
+  "source": "./src/index.js",
+  "main": "./dist/main.js",
   "type": "module",
+  "scripts": {
+    "build": "parcel build"
+  },
   "files": [
     "src"
   ],
@@ -43,5 +46,8 @@
     "node-appwrite": "^14.1.0",
     "ora": "^8.1.0",
     "terminal-link": "^3.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
   }
 }
