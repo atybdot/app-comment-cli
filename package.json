@@ -1,15 +1,15 @@
 {
   "name": "@app-comment/app-comment-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "initialize and get going with app-comment project with ease",
   "publishConfig": {
     "access": "public"
   },
-  "exports": "./dist/index.js",
-  "bin": "./dist/index.js",
+  "exports": "./src/index.js",
+  "bin": "./src/index.js",
   "type": "module",
   "files": [
-    "dist"
+    "src"
   ],
   "scripts": {
     "build": "node esbuild.build.js"
@@ -46,8 +46,5 @@
     "node-appwrite": "^14.1.0",
     "ora": "^8.1.0",
     "terminal-link": "^3.0.0"
-  },
-  "devDependencies": {
-    "esbuild": "0.24.0"
   }
 }
