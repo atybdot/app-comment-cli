@@ -1,6 +1,6 @@
 {
   "name": "@app-comment/app-comment-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "initialize and get going with app-comment project with ease",
   "publishConfig": {
     "access": "public"
